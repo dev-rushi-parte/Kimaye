@@ -1,0 +1,117 @@
+
+#navbar1{
+    position: sticky;
+    top: 0;
+}
+#show{
+    width: 80%;
+    margin: auto;
+    height: auto;
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,600px);
+}
+
+.main_img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+
+}
+
+body{
+     background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+     
+}
+
+.nam{
+    font-size: 40px;
+
+    font-weight: bold;
+    color: rgb(34,34,34);
+}
+.des{
+    font-size: 18px;
+    font-family: PT Sans,sans-serif;
+    padding-top: 30px;
+    line-height: 25px;
+
+}
+.loca{
+    font-size: 19px;
+    padding-top: 27px;
+}
+.wei{
+    font-size: 19px;
+    padding-top: 27px;
+}
+.pri{
+    padding-top: 33px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211,85,0);
+}
+.btn{
+    padding: 10px 20px;
+    margin-top: 35px;
+    background: rgb(219, 212, 212);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.prom{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.des2{
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+.img2{
+    width: 90%;
+    height: 80%;
+    margin-top: 50px;
+}
+.img3{
+    width: 75%;
+    height: 110%;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+.health{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: rgb(34,34,34);
+    margin-top: 30px;
+}
+.des3{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.nutrition{
+    background-color: red;
+    width: 380px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}

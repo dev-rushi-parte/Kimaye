@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./login.css">
+
+  <title>Login and signup</title>
+</head>
+
+<body>
+  <div>
+    <p id="wel">Wel-Come To</p>
+    <img id="image" src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204"
+    width="300px"
+    height="80px">
+  </div>
+  <div class="container">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="signIn()">Sign In</button>
+        <button type="button" class="toggle-btn" onclick="register()">New Here?</button>
+      </div>
+      <form id="login" class="input-group">
+        <input type="text" class="input-field" id="Email" placeholder="Email address" required>
+        <input type="password" class="input-field" id="Pass" placeholder="Password" required>
+        <a  id="anchor">Forgot Password</a>
+        <p id="valid" style="color: red"></p>
+        <button type="submit" id="login1" class="submit-btn" style="margin-top: 50px;">LOGIN</button>
+      </form>
+      <form id="register" class="input-group">
+        <input type="text" id="fname" class="input-field" placeholder="First name" required>
+        <input type="text" id="lname" class="input-field" placeholder="Last Name" required>
+        <input type="text" id="email" class="input-field" placeholder="Email address" required>
+        <input type="password" id="pass" class="input-field" placeholder="Password" required>
+        <input type="checkbox" checked class="check-box"><span>Subscribe to our exclusive email offers</span>
+        <p id="valid" style="color: red"></p>
+        <button type="submit" id="register1" class="submit-btn">REGISTER</button>
+      </form>
+
+    </div>
+  </div>
+</body>
+<script src="./login.js">
+ 
+
+</script>
+
+</html>
