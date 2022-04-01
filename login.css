@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+}
+#image{
+   margin-left: 600px;
+   margin-top: 20px;
+}
+#wel{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(237,40,49);
+    text-align: center;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+   background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    padding: 5px;
+    overflow: hidden;
+       transition: 0.8s;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+ 
+}
+.toggle-btn{
+        padding: 10px 25px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    
+    transition: .5s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+#anchor{
+    padding-top: 10px;
+  
+    font-size: 12px;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+   background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    border: 0;
+    color: black;
+    font-size: 20px;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+ color: white ;
+background-image: none;
+background-color: rgb(237,40,49);
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+}
+#login{
+    left: 50px;
+
+}
+#register{
+    left: 450px;
+    
+}

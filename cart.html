@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart-Kimaye</title>
+</head>
+<link rel="shortcut icon" type="img/jpg"
+ href="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fav_12dcb22d-f3e3-4662-886b-1dae4e60e297_32x.png?v=1598337573">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="cart.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<body>
+    
+         <div id="currently">
+        <p>Currently available in Mumbai | Same day delivery</p>
+    </div>
+  <div id="navbar1"></div>
+    <div class="cart_head">
+   <h1>cart</h1>
+
+   <p><i class="material-icons" style="font-size: 18px;">home</i><span>Home</span> / cart</p>
+ 
+    </div>
+  
+    <form>
+        <table>
+            <thead class="table_head">
+                <tr>
+                    <th class="remove">Remove</th>
+                    <th>Image</th>
+                    <th>Products</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+               
+            </tbody>
+              
+        </table>
+    </form>
+    <div id="empty"></div>
+ 
+    <div class="total_price_box">
+   <div>
+       <p>SPECIAL INSTRUCTIONS</p>
+       <input type="text" id="instruction">
+   </div>
+   <div>
+       <p>CART TOTALS</p>
+       <div class="subtotal">
+        <div class="flex">
+            <span>Subtotal:</span>
+            <span id="price"></span>
+        </div>
+        <hr>
+        <div class="flex bottom">
+            <p>TOTAL</p>
+            <p id="price1"></p>
+        </div>
+
+       </div>
+
+      <a href="checkoutpage.html";><button  class="process">proceed to checkout</button></a> 
+        <a href="products.html"><button class="process">continue shopping </button></a> 
+   </div>
+    </div>
+  
+    <div id="footer1"></div>
+    
+</body>
+<script type="module">
+    let count1=JSON.parse(localStorage.getItem("cart"))|| [];
+
+     let cartCount=count1.length;
+
+        import navbar from "./navbar.js";
+    let nav=document.getElementById("navbar1");
+    nav.innerHTML=navbar(cartCount);
+   
+
+    import {footer} from "./navbar.js";
+    let foot=document.getElementById("footer1");
+    foot.innerHTML=footer();
+
+</script>
+<script src="./cart.js"></script>
+</html>

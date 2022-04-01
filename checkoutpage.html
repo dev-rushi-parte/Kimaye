@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping-Kimaye-Checkout</title>
+    <link rel="shortcut icon" type="img/jpg"
+ href="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fav_12dcb22d-f3e3-4662-886b-1dae4e60e297_32x.png?v=1598337573">
+
+ <link rel="stylesheet" href="./checkout.css">
+</head>
+<body>
+    <div id="box">
+        <div class="lh">
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo.png?15875";
+            width="230px"
+            height="70px"
+            >
+            <br>
+            <span>Cart </span><span>></span> <span> Information </span><span>></span><span> Shipping > </span><span>Payment</span>
+            <br>
+            <div class="address">
+            <label>Contact</label>
+            <input type="text" value="rushikeshparte10@gmail.com">
+            <br>
+            <hr>
+            <label>Ship to</label>
+            <input type="text" value="At-indavali po-karandi tal-jawali dist-satara, 415514 Satara MH, India">
+            </div>
+            <br>
+            <p class="ship">Shipping Method</p>
+            <p class="backred">Your cart has been updated and the previous shipping rate isn't valid. Select a new rate.</p>
+            <p class="free">Free Shipping</p>
+            
+
+            <div id="carts">
+                <p> <img src="http://127.0.0.1:5501/cardLogo/visa.png" width="50px"; height="50px">    Cards Details :</p>
+                <input id="card_number" type="number" placeholder="Card Number(Without Space">
+                <br>
+                <input id="mm" type="number" placeholder="MM/YY">
+                <input id="cvv" type="number" placeholder="CVV">
+
+                <div id="upi">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSILwBNq13Ry-XkDl0XR7F8G0rifl3cQdPZchGLL4g5fdekKeyWeFds7ti-gUtHE9-xDLI&usqp=CAU"
+                    width="100px"
+                    height="100px">
+                </div>
+            </div>
+            <button class="continue">Make the payment</button>
+
+        </div>
+        <div >
+            <table class="rh">
+            
+            <tbody id="tbody"></tbody>
+          
+            </table>
+              <hr class="hr">
+              <input class="code" type="text" placeholder="Gift Cart or discount code">
+              <input class="btn" type="submit" value="Apply">
+              <br>
+              <br>
+              <hr class="hr">
+              <div class="sub">
+                   <p>Subtotal</p> <p id="price"></p>
+              </div>
+              <div class="sub">
+                   <p>Shipping</p> <p>Free</p>
+              </div>
+              
+                <hr class="hr">
+                <div class="sub1">
+                    <p>Total</p>
+                    <p id="price1">654</p>
+                </div>
+               
+        </div>
+     
+
+    </div>
+</body>
+<script src="./checkout.js"></script>
+</html>

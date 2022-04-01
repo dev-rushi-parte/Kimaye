@@ -1,0 +1,114 @@
+body{
+     background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#button{
+  margin: 50px auto;
+  margin-left: 530px;
+ 
+}
+#button>button{
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+#button>button:hover{
+    text-decoration: underline;
+ 
+}
+
+#product{
+    width: 85%;
+    height: auto;
+  
+    margin: auto;
+    margin-top: 100px;
+}
+
+#home i{
+    padding-right: 10px;
+   
+}
+#navbar1{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+#show{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 10px;
+}
+#show>div{
+    overflow: hidden;
+     border-radius: 30px;
+}
+#show>div>img{
+    width: 380px;
+    height: 400px;
+    border-radius: 30px;
+    transition: transform .1s;
+    cursor: pointer;
+}
+#show>div>img:hover{
+    transform: scale(1.1);
+     border-radius: 30px;
+}
+#show>div>p{
+    text-align: center;
+}
+#show p:nth-child(3){
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+#show p:nth-child(4){
+    margin-top: 20px;
+    color: rgb(225,25,37);
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#page_name{
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 99%;
+    height: 70px;
+    position: relative;
+    /* padding: 18px 125px; */
+    background-color: rgb(67,113,17);
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius:0 0 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     transition: 0.3s;
+     opacity: 0;
+     cursor: pointer;
+     
+    
+}
+
+#show>div:hover >.btn{
+    opacity: 1;
+    transform: translateY(-50px);
+     padding: 20px 125px;
+}
